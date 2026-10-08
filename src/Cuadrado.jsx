@@ -27,7 +27,7 @@ function Cuadrado() {
             <div className="row d-flex justify-content-center">
               <img
                 className="representacion-a"
-                src="/mi-proyecto/images/area-cuadrado.png"
+                src="${import.meta.env.BASE_URL}images/area-cuadrado.png"
                 alt="Representación del área de un cuadrado"
               />
             </div>
@@ -40,7 +40,7 @@ function Cuadrado() {
             <h5>Ejemplo</h5>
             <div className="row d-flex justify-content-center">
               <img
-                src="/mi-proyecto/images/ejemplo-cuadrado.png"
+                src="${import.meta.env.BASE_URL}images/ejemplo-cuadrado.png"
                 alt="Ejemplo del área de un cuadrado"
                 className="representacion-ejmp"
               />
@@ -93,7 +93,7 @@ function Cuadrado() {
                 <div className="row">
                   <div className="col-sm-5 d-flex justify-content-left">
                     <img
-                      src="/mi-proyecto/images/area-cuadrado.png"
+                      src="${import.meta.env.BASE_URL}images/area-cuadrado.png"
                       alt="Imagen de un cuadrado"
                       className="representacion-ejrc"
                     />
