@@ -28,7 +28,7 @@ function Triangulo() {
             <div className="row d-flex justify-content-center">
               <img
                 className="representacion-a"
-                src="${import.meta.env.BASE_URL}images/area-triangulo.png"
+                src={`${import.meta.env.BASE_URL}images/area-triangulo.png`}
                 alt="Representación del área de un triángulo"
               />
             </div>
@@ -44,7 +44,7 @@ function Triangulo() {
             <h5>Ejemplo</h5>
             <div className="row d-flex justify-content-center">
               <img
-                src="${import.meta.env.BASE_URL}images/ejemplo-triangulo.png"
+                src={`${import.meta.env.BASE_URL}images/ejemplo-triangulo.png`}
                 alt="Ejemplo del área de un triángulo"
                 className="representacion-ejmp"
               />
@@ -106,7 +106,7 @@ function Triangulo() {
                 <div className="row">
                   <div className="col-sm-5 d-flex justify-content-left">
                     <img
-                      src="${import.meta.env.BASE_URL}images/area-triangulo.png"
+                      src={`${import.meta.env.BASE_URL}images/area-triangulo.png`}
                       alt="Imagen de un triángulo"
                       className="representacion-ejrc"
                     />

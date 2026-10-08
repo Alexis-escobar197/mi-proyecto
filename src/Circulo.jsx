@@ -28,7 +28,7 @@ function Circulo() {
             <div className="row d-flex justify-content-center">
               <img
                 className="representacion-a"
-                src="${import.meta.env.BASE_URL}images/area-circulo.png"
+                src={`${import.meta.env.BASE_URL}images/area-circulo.png`}
                 alt="Representación del área de un círculo"
               />
             </div>
@@ -46,7 +46,7 @@ function Circulo() {
             <h5>Ejemplo</h5>
             <div className="row d-flex justify-content-center">
               <img
-                src="${import.meta.env.BASE_URL}images/ejemplo-circulo.png"
+                src={`${import.meta.env.BASE_URL}images/ejemplo-circulo.png`}
                 alt="Ejemplo del área de un círculo"
                 className="representacion-ejmp"
               />
@@ -98,7 +98,7 @@ function Circulo() {
                 <div className="row">
                   <div className="col-sm-5 d-flex justify-content-left">
                     <img
-                      src="${import.meta.env.BASE_URL}images/area-circulo.png"
+                      src={`${import.meta.env.BASE_URL}images/area-circulo.png`}
                       alt="Imagen de un círculo"
                       className="representacion-ejrc"
                     />

@@ -29,7 +29,7 @@ function Rectangulo() {
             <div className="row d-flex justify-content-center">
               <img
                 className="representacion-a"
-                src="${import.meta.env.BASE_URL}images/area-rectangulo.png"
+                src={`${import.meta.env.BASE_URL}images/area-rectangulo.png`}
                 alt="Representación del área de un rectángulo"
               />
             </div>
@@ -45,7 +45,7 @@ function Rectangulo() {
             <h5>Ejemplo</h5>
             <div className="row d-flex justify-content-center">
               <img
-                src="${import.meta.env.BASE_URL}images/ejemplo-rectangulo.png"
+                src={`${import.meta.env.BASE_URL}images/ejemplo-rectangulo.png`}
                 alt="Ejemplo del área de un rectángulo"
                 className="representacion-ejmp"
               />
@@ -107,7 +107,7 @@ function Rectangulo() {
                 <div className="row">
                   <div className="col-sm-5 d-flex justify-content-left">
                     <img
-                      src="${import.meta.env.BASE_URL}images/area-rectangulo.png"
+                      src={`${import.meta.env.BASE_URL}images/area-rectangulo.png`}
                       alt="Imagen de rectángulo"
                       className="representacion-ejrc"
                     />

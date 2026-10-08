@@ -30,7 +30,7 @@ function Poligono() {
             <div className="row d-flex justify-content-center">
               <img
                 className="representacion-a"
-                src="${import.meta.env.BASE_URL}images/area-poligono.png"
+                src={`${import.meta.env.BASE_URL}images/area-poligono.png`}
                 alt="Representación del área de un polígono regular"
               />
             </div>
@@ -48,7 +48,7 @@ function Poligono() {
             <h5>Ejemplo</h5>
             <div className="row d-flex justify-content-center">
               <img
-                src="${import.meta.env.BASE_URL}images/ejemplo-poligono.png"
+                src={`${import.meta.env.BASE_URL}images/ejemplo-poligono.png`}
                 alt="Ejemplo del área de un polígono regular"
                 className="representacion-ejmp"
               />
@@ -122,7 +122,7 @@ function Poligono() {
                 <div className="row">
                   <div className="col-sm-5 d-flex justify-content-left">
                     <img
-                      src="${import.meta.env.BASE_URL}images/area-poligono.png"
+                      src={`${import.meta.env.BASE_URL}images/area-poligono.png`}
                       alt="Imagen de un polígono regular"
                       className="representacion-ejrc"
                     />
