@@ -6,7 +6,7 @@ function Circulo() {
 
   const calcularArea = () => {
     if (radio) {
-      setArea(Math.PI * radio * radio); // πr²
+      setArea(Math.PI * radio * radio);
     }
   };
 
@@ -28,7 +28,7 @@ function Circulo() {
             <div className="row d-flex justify-content-center">
               <img
                 className="representacion-a"
-                src="/images/area-circulo.png"
+                src="/mi-proyecto/images/area-circulo.png"
                 alt="Representación del área de un círculo"
               />
             </div>
@@ -46,7 +46,7 @@ function Circulo() {
             <h5>Ejemplo</h5>
             <div className="row d-flex justify-content-center">
               <img
-                src="/images/ejemplo-circulo.png"
+                src="/mi-proyecto/images/ejemplo-circulo.png"
                 alt="Ejemplo del área de un círculo"
                 className="representacion-ejmp"
               />
@@ -63,7 +63,6 @@ function Circulo() {
           </div>
         </div>
       </div>
-
       <div className="row">
         <div className="container-fluid">
           <div className="container-fluid rounded-2 cl-2 pt-3 pb-3">
@@ -92,7 +91,6 @@ function Circulo() {
                   </div>
                 </div>
               </div>
-
               <div className="col-sm-7">
                 <p>
                   <span className="fw-bold">Fórmula:</span> Área = π × r²
@@ -100,7 +98,7 @@ function Circulo() {
                 <div className="row">
                   <div className="col-sm-5 d-flex justify-content-left">
                     <img
-                      src="/images/area-circulo.png"
+                      src="/mi-proyecto/images/area-circulo.png"
                       alt="Imagen de un círculo"
                       className="representacion-ejrc"
                     />
@@ -109,7 +107,6 @@ function Circulo() {
                 </div>
               </div>
             </div>
-
             <div className="row d-flex justify-content-between a-b mt-4">
               <button className="btn btn-info t" onClick={calcularArea}>
                 Calcular área

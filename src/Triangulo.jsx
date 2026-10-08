@@ -7,7 +7,7 @@ function Triangulo() {
 
   const calcularArea = () => {
     if (base && altura) {
-      setArea((base * altura) / 2); // (b × h) / 2
+      setArea((base * altura) / 2);
     }
   };
 
@@ -28,7 +28,7 @@ function Triangulo() {
             <div className="row d-flex justify-content-center">
               <img
                 className="representacion-a"
-                src="/images/area-triangulo.png"
+                src="/mi-proyecto/images/area-triangulo.png"
                 alt="Representación del área de un triángulo"
               />
             </div>
@@ -39,13 +39,12 @@ function Triangulo() {
             </p>
           </div>
         </div>
-
         <div className="col-sm-4">
           <div className="container rounded-2 cl-2 mt-3 mb-3 pt-2 pb-2">
             <h5>Ejemplo</h5>
             <div className="row d-flex justify-content-center">
               <img
-                src="/images/ejemplo-triangulo.png"
+                src="/mi-proyecto/images/ejemplo-triangulo.png"
                 alt="Ejemplo del área de un triángulo"
                 className="representacion-ejmp"
               />
@@ -62,8 +61,6 @@ function Triangulo() {
           </div>
         </div>
       </div>
-
-      {/* Sección de cálculo */}
       <div className="row">
         <div className="container-fluid">
           <div className="container-fluid rounded-2 cl-2 pt-3 pb-3">
@@ -102,7 +99,6 @@ function Triangulo() {
                   </div>
                 </div>
               </div>
-
               <div className="col-sm-7">
                 <p>
                   <span className="fw-bold">Fórmula:</span> Área = (b × h) / 2
@@ -110,7 +106,7 @@ function Triangulo() {
                 <div className="row">
                   <div className="col-sm-5 d-flex justify-content-left">
                     <img
-                      src="/images/area-triangulo.png"
+                      src="/mi-proyecto/images/area-triangulo.png"
                       alt="Imagen de un triángulo"
                       className="representacion-ejrc"
                     />
@@ -119,7 +115,6 @@ function Triangulo() {
                 </div>
               </div>
             </div>
-
             <div className="row d-flex justify-content-between a-b mt-4">
               <button className="btn btn-info t" onClick={calcularArea}>
                 Calcular área

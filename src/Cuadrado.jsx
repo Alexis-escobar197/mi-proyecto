@@ -27,7 +27,7 @@ function Cuadrado() {
             <div className="row d-flex justify-content-center">
               <img
                 className="representacion-a"
-                src="/images/area-cuadrado.png"
+                src="/mi-proyecto/images/area-cuadrado.png"
                 alt="Representación del área de un cuadrado"
               />
             </div>
@@ -35,13 +35,12 @@ function Cuadrado() {
             <p>L es la longitud de uno de los lados del cuadrado.</p>
           </div>
         </div>
-
         <div className="col-sm-4">
           <div className="container rounded-2 cl-2 mt-3 mb-3 pt-2 pb-2">
             <h5>Ejemplo</h5>
             <div className="row d-flex justify-content-center">
               <img
-                src="/images/ejemplo-cuadrado.png"
+                src="/mi-proyecto/images/ejemplo-cuadrado.png"
                 alt="Ejemplo del área de un cuadrado"
                 className="representacion-ejmp"
               />
@@ -87,7 +86,6 @@ function Cuadrado() {
                   </div>
                 </div>
               </div>
-
               <div className="col-sm-7">
                 <p>
                   <span className="fw-bold">Fórmula:</span> Área = L²
@@ -95,7 +93,7 @@ function Cuadrado() {
                 <div className="row">
                   <div className="col-sm-5 d-flex justify-content-left">
                     <img
-                      src="/images/area-cuadrado.png"
+                      src="/mi-proyecto/images/area-cuadrado.png"
                       alt="Imagen de un cuadrado"
                       className="representacion-ejrc"
                     />

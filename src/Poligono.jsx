@@ -30,7 +30,7 @@ function Poligono() {
             <div className="row d-flex justify-content-center">
               <img
                 className="representacion-a"
-                src="/images/area-poligono.png"
+                src="/mi-proyecto/images/area-poligono.png"
                 alt="Representación del área de un polígono regular"
               />
             </div>
@@ -48,7 +48,7 @@ function Poligono() {
             <h5>Ejemplo</h5>
             <div className="row d-flex justify-content-center">
               <img
-                src="/images/ejemplo-poligono.png"
+                src="/mi-proyecto/images/ejemplo-poligono.png"
                 alt="Ejemplo del área de un polígono regular"
                 className="representacion-ejmp"
               />
@@ -66,7 +66,6 @@ function Poligono() {
           </div>
         </div>
       </div>
-
       <div className="row">
         <div className="container-fluid">
           <div className="container-fluid rounded-2 cl-2 pt-3 pb-3">
@@ -123,7 +122,7 @@ function Poligono() {
                 <div className="row">
                   <div className="col-sm-5 d-flex justify-content-left">
                     <img
-                      src="/images/area-poligono.png"
+                      src="/mi-proyecto/images/area-poligono.png"
                       alt="Imagen de un polígono regular"
                       className="representacion-ejrc"
                     />
@@ -132,7 +131,6 @@ function Poligono() {
                 </div>
               </div>
             </div>
-
             <div className="row d-flex justify-content-between a-b mt-4">
               <button className="btn btn-info t" onClick={calcularArea}>
                 Calcular área

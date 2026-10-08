@@ -20,7 +20,7 @@ function Introduccion(){
                 forma axiomática, tratamiento que estableció una norma a seguir 
                 durante muchos siglos.</p>
             <div class="row d-flex justify-content-center">
-                <img id="himg" src="/images/historia-de-la-geometria.jpg" alt="historia-de-la-geometria" />
+                <img id="himg" src="/mi-proyecto/images/historia-de-la-geometria.jpg" alt="historia-de-la-geometria" />
             </div>
             <p className="j alinear">La observación de la naturaleza nos muestra la existencia de 
                 variadas formas en los cuerpos materiales que la componen y 
