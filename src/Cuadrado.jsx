@@ -17,7 +17,7 @@ function Cuadrado() {
           <h3>Área del cuadrado</h3>
           <p>
             Un cuadrado es un polígono de cuatro lados iguales y ángulos rectos
-            (90°). La fórmula para calcular su área es:
+            (90°). La fórmula general para calcular su área es:
           </p>
           <div className="container rounded-2 cl-2 mt-3 mb-3 pt-2 pb-2">
             <p className="fw-bold">Fórmula:</p>
